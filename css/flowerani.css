@@ -1,7 +1,7 @@
 
 .container {
-  width: 8em;
-  height: 8em;
+  width: 4em;
+  height: 4em;
   position: relative;
   transform-style: preserve-3d;
   transform: rotateX(70deg) rotateZ(10deg) rotateY(0deg);
@@ -14,16 +14,16 @@
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  top: 7.9em;
-  left: calc(4em - 7px);
+  top: 3.9em;
+  left: calc(2em - 7px);
   background: black;
   transform: rotateX(90deg);
 }
 
 .container div {
   position: absolute;
-  width: 8em;
-  height: 8em;
+  width: 4em;
+  height: 4em;
   opacity: .7;
   border-radius: 50%;
 }
